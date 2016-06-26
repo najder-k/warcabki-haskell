@@ -6,11 +6,10 @@ Pierwszy argument programu to sterowanie białymi, drugi to sterowanie czarnymi.
 
 Możliwe argumenty: "input", "losowo", "x_negamax" (gdzie x to głębokosc przeszukiwania drzewa gry)
 
-np. "Warcaby input 5_negamax" to gra przyjmująca ruchy dla białych i wybierajaca ruchy dla czarnych, negamaxem o głębokości 5
-
-"Warcaby 10_negamax 3_negamax"  dla czarnych negamaxem o głębokości 3
-
-"Warcaby 10_negamax losowo" to gra wybierająca ruchy dla białych negamaxem o głębokości 10 i wybierajaca ruchy dla czarnych losowo
+np. 
+- "Warcaby input 5_negamax" to gra przyjmująca ruchy dla białych i wybierajaca ruchy dla czarnych, negamaxem o głębokości 5
+- "Warcaby 10_negamax 3_negamax"  dla czarnych negamaxem o głębokości 3
+- "Warcaby 10_negamax losowo" to gra wybierająca ruchy dla białych negamaxem o głębokości 10 i wybierajaca ruchy dla czarnych losowo
 	
 Domyślnie (gdy któryś z argumentow nie będzie podany) ruchy wybierane są losowo
 
